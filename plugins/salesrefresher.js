@@ -10,7 +10,8 @@
 (function () {
 	
 	var useraccountnav = $('.header-logo-account__user-nav-item');
-	var user_balance = $('.header-logo-account__balance').attr('title', 'Click to reload');
+	// var user_balance = $('.header-logo-account__balance').attr('title', 'Click to reload');
+	var user_balance = $('.global-header-menu__link-text').attr('title', 'Click to reload');
 	
 	user_balance.on('click', function(){
 		update();

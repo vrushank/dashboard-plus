@@ -183,17 +183,17 @@
 					}	
 				]
 			},
-			'salesrefresher': {
-				'name': 'Sales Refresher',
-				'desc': 'Refresh your salescount without reloading the site (click on your balance to reload)',
-				'settings':[
-					{
-						'id': 'autoreload',
-						'type': 'checkbox',
-						'label': 'autoreload every 5 minutes'
-					}	
-				]
-			},
+			// 'salesrefresher': {
+			// 	'name': 'Sales Refresher',
+			// 	'desc': 'Refresh your salescount without reloading the site (click on your balance to reload)',
+			// 	'settings':[
+			// 		{
+			// 			'id': 'autoreload',
+			// 			'type': 'checkbox',
+			// 			'label': 'autoreload every 5 minutes'
+			// 		}	
+			// 	]
+			// },
 			'replypantry': {
 				'name': 'Reply Pantry',
 				'desc': 'Store canned text for use in forums and item comments'
@@ -283,7 +283,7 @@
 		enque('notification');
 		enque('quickcollection');
 		enque('chaching');
-		enque('salesrefresher');
+		// enque('salesrefresher');
 		enque('reminder');
 		
 		enque('_localdevelopment');

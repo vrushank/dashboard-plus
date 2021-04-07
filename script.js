@@ -48,11 +48,12 @@
     // var dashboardplus_base_uri = '//dtbaker.github.io/dashboard-plus/';
 
     // 2: from local code contained in this plugin folder
-    var dashboardplus_base_uri = chrome.extension.getURL('');
+    // var dashboardplus_base_uri = chrome.extension.getURL('');
 
     // 3: from a github development repo for testing eg: raw.githubusercontent.com/dtbaker/dashboard-plus/master/bootstrap.js
     //    you can use your own github fork here for testing
-    //var dashboardplus_base_uri = '//raw.githubusercontent.com/dtbaker/dashboard-plus/master/';
+    // var dashboardplus_base_uri = '//raw.githubusercontent.com/dtbaker/dashboard-plus/master/';
+    var dashboardplus_base_uri = 'raw.githubusercontent.com/vrushank/dashboard-plus/master/bootstrap.js';
 
 
     // this injects some code into the browser window along with the bootstrap.js extension file (from our desired loading location above)

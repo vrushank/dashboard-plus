@@ -1,44 +1,52 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
+    "name": "Dashboard Plus for Envato",
+    "version": "1.4.9",
+    "description": "Dashboard Plus for the Envato Market created by @revaxarts.",
     "content_scripts": [
-        {
-            "js": ["script.js"],
-            "matches": [
-                "http://activeden.net/*",
-                "http://audiojungle.net/*",
-                "http://themeforest.net/*",
-                "http://videohive.net/*",
-                "http://graphicriver.net/*",
-                "http://3docean.net/*",
-                "http://codecanyon.net/*",
-                "http://photodune.net/*",
-                "https://activeden.net/*",
-                "https://audiojungle.net/*",
-                "https://themeforest.net/*",
-                "https://videohive.net/*",
-                "https://graphicriver.net/*",
-                "https://3docean.net/*",
-                "https://codecanyon.net/*",
-                "https://photodune.net/*"
-            ],
-            "run_at": "document_idle"
-        }
+      {
+        "js": ["script.js"],
+        "matches": [
+          "http://activeden.net/*",
+          "http://audiojungle.net/*",
+          "http://themeforest.net/*",
+          "http://videohive.net/*",
+          "http://graphicriver.net/*",
+          "http://3docean.net/*",
+          "http://codecanyon.net/*",
+          "http://photodune.net/*",
+          "https://activeden.net/*",
+          "https://audiojungle.net/*",
+          "https://themeforest.net/*",
+          "https://videohive.net/*",
+          "https://graphicriver.net/*",
+          "https://3docean.net/*",
+          "https://codecanyon.net/*",
+          "https://photodune.net/*"
+        ],
+        "run_at": "document_idle"
+      }
     ],
     "web_accessible_resources": [
-        "*.js",
-        "plugins/*.js",
-        "plugins/*.html",
-        "img/*.png",
-        "img/*.gif",
-        "css/*.css"
-      ],
+      {
+        "resources": [
+          "*.js",
+          "plugins/*.js",
+          "plugins/*.html",
+          "img/*.png",
+          "img/*.gif",
+          "css/*.css"
+        ],
+        "matches": [
+          "<all_urls>"
+        ]
+      }
+    ],
     "icons": {
-        "16": "icon.png",
-        "48": "icon.png",
-        "64": "icon.png",
-        "128": "icon.png"
-    },
-    "description": "Dashboard Plus for the Envato Market created by @revaxarts.",
-    "name": "Dashboard Plus for Envato",
-    "version": "1.4.9"
-}
+      "16": "icon.png",
+      "48": "icon.png",
+      "64": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
